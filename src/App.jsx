@@ -95,19 +95,19 @@ function App() {
         <div className=" text-white text-6xl flex justify-center items-start font-semibold">
           HERE'S WHAT I'M GOOD AT
         </div>
-        <div className="flex flex-col justify-center items-center mt-10 gap-5">
-          <div className="flex">
+        <div className="flex flex-col justify-center items-center mt-10">
+          <div className="flex gap-5">
             {" "}
             <img
-              className="w-60"
+              className="w-40"
               src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
             />{" "}
             <img
-              className="w-60 "
+              className="w-40 "
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQziz5PjH3pK1AMRygc8LTksuwYaVTIOvOUAW4R_5lS&s"
             />
             <img
-              className="w-60 "
+              className="w-40 "
               src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png"
             />{" "}
           </div>
@@ -115,17 +115,17 @@ function App() {
           <div className="flex mt-10 gap-5">
             {" "}
             <img
-              className="w-60  "
+              className="w-40 "
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS03kU4dJIELF0cQ2-3RDOdddELLgszn2inLQ&usqp=CAU"
             />
             <img
-              className="w-60  "
+              className="w-40  "
               src="https://miro.medium.com/max/816/1*TpbxEQy4ckB-g31PwUQPlg.png"
             />
           </div>
         </div>
       </div>
-      <div className="bg-gray-300 h-screen ">
+      <div className="bg-gray-300 overflow-y-scroll h-screen ">
         <div className=" text-gray-800 text-6xl flex justify-center items-start font-semibold py-5 hover:text-green-700">
           Featured Works
         </div>
@@ -154,6 +154,16 @@ function App() {
             about=" In this project i have created a To-Do List maker ."
             netlify={"https://listmaketo-do.netlify.app/"}
             children="To-Do Project"
+          />
+        </div>
+        <div className="flex px-10 py-5 ">
+          <MyWorks
+            image={
+              "https://image.shutterstock.com/image-vector/weather-forecast-widget-concept-temperature-260nw-1944970438.jpg"
+            }
+            about="In this project I have created a Weather-Check site"
+            netlify={"https://weather-check-charlie.netlify.app/"}
+            children="Weather-Report Project"
           />
         </div>
       </div>
