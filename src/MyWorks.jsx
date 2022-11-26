@@ -2,9 +2,9 @@ import React from "react";
 
 const MyWorks = ({ image, children, netlify, about }) => {
   return (
-    <div className="hover:bg-blue-400 w-1/3">
+    <div className="hover:bg-blue-400 lg:w-1/3 w-full">
       <img className="w-60  " src={image} />
-      <div className="">
+      <div>
         <h2 className="text-xl text-gray-900 font-bold m-2">{children}</h2>
 
         <button className="text-md rounded-2xl bg-gray-900 text-white px-4">
