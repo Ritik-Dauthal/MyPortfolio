@@ -102,7 +102,7 @@ function App() {
             {" "}
             <img
               className="lg:w-40 w-32"
-              src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png"
+              src="https://play-lh.googleusercontent.com/85WnuKkqDY4gf6tndeL4_Ng5vgRk7PTfmpI4vHMIosyq6XQ7ZGDXNtYG2s0b09kJMw"
             />{" "}
             <img
               className="lg:w-40 w-32"
@@ -110,7 +110,7 @@ function App() {
             />
             <img
               className="lg:w-40 w-32"
-              src="https://1000logos.net/wp-content/uploads/2020/09/JavaScript-Logo.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCFmj9qg68AFAx8H7Xo5x20h4Ozi3ug1gXUdKqKnSBUfMdXuOKxMCpV4nsVecAwPNjwPs&usqp=CAU"
             />{" "}
           </div>
 
@@ -123,6 +123,10 @@ function App() {
             <img
               className="lg:w-40 w-32 "
               src="https://miro.medium.com/max/816/1*TpbxEQy4ckB-g31PwUQPlg.png"
+            />
+            <img
+              className="lg:w-40 w-32"
+              src="https://ih1.redbubble.net/image.413059324.7813/st,small,507x507-pad,600x600,f8f8f8.u1.jpg"
             />
           </div>
         </div>
