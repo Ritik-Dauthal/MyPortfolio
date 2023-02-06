@@ -171,6 +171,12 @@ function App() {
             netlify={"https://weather-check-charlie.netlify.app/"}
             children="Weather-Report Project"
           />
+          <MyWorks
+            image={"https://images5.alphacoders.com/325/thumbbig-325117.webp"}
+            about="In this project I have created a site  to watch TV shows and movies "
+            netlify={"https://charlieshows.netlify.app"}
+            children="Tv shows Project"
+          />
         </div>
       </div>
     </div>
